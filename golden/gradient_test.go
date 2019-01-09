@@ -10,7 +10,7 @@ import (
 	"os"
 	"testing"
 
-	"github.com/joncalhoun/twg/golden"
+	"github.com/rlafferty/twg/golden"
 )
 
 var updateFlag bool

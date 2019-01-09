@@ -3,9 +3,9 @@ package stub_test
 import (
 	"testing"
 
-	"github.com/joncalhoun/twg/suite"
-	"github.com/joncalhoun/twg/suite/stub"
-	"github.com/joncalhoun/twg/suite/suitetest"
+	"github.com/rlafferty/twg/suite"
+	"github.com/rlafferty/twg/suite/stub"
+	"github.com/rlafferty/twg/suite/suitetest"
 )
 
 var _ suite.UserStore = &stub.UserStore{}

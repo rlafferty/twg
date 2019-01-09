@@ -6,7 +6,7 @@ import (
 	"os/exec"
 	"testing"
 
-	"github.com/joncalhoun/twg/sub"
+	"github.com/rlafferty/twg/sub"
 )
 
 func TestDemo(t *testing.T) {
@@ -47,7 +47,7 @@ func TestDownloader_Download(t *testing.T) {
 	// test starts here
 	d.CloneCmd = exec.Command(os.Args[0], append([]string{"-test.run=Test_GitCloneSubprocess", "--"}, d.CloneCmd.Args...)...)
 	d.CloneCmd.Env = append(os.Environ(), "GO_RUNNING_SUBPROCESS=1")
-	msg, err := d.Download("https://github.com/joncalhoun/form.git", wantDir)
+	msg, err := d.Download("https://github.com/rlafferty/form.git", wantDir)
 	if err != nil {
 		t.Errorf("Download() err = %s; want nil", err)
 		t.Errorf("Download() output: %s", msg)

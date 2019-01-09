@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/joncalhoun/twg/stripe"
+	"github.com/rlafferty/twg/stripe"
 )
 
 var (

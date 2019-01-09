@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/joncalhoun/twg/form"
+	"github.com/rlafferty/twg/form"
 )
 
 var updateFlag bool

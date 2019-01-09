@@ -1,7 +1,7 @@
 package stub
 
 import (
-	"github.com/joncalhoun/twg/suite"
+	"github.com/rlafferty/twg/suite"
 )
 
 type UserStore struct{}
